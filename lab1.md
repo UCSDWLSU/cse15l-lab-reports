@@ -1,7 +1,7 @@
 Command Run: "cd"
-Absolute Path Before Running Command: /workspaces/lab1
-Why The Output: Because no argument is given, the absolute path/working directory is voided.
-Output Error? If So Why: No.
+<br>Absolute Path Before Running Command: /workspaces/lab1
+<br>Why The Output: Because no argument is given, the absolute path/working directory is voided.
+<br>Output Error? If So Why: No.
 
 Command Run: "cd lecture1"
 Absolute Path Before Running Command: /workspaces/lab1
