@@ -41,3 +41,7 @@ public class ChatServer {
         Server.start(port, new ChatHandler());
     }
 }'
+
+![Image](lab2pic1.png)
+Method Called
+![Image](lab2pic2.png)
