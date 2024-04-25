@@ -3,7 +3,6 @@
 import java.net.URI;
 
 class ChatHandler implements URLHandler {
-    // The single string that gets added to by incoming requests
     String chatLog = "";
 
     public String handleRequest(URI url) {
@@ -28,7 +27,6 @@ class ChatHandler implements URLHandler {
     }
 }
 
-// ChatServer.java
 public class ChatServer {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
