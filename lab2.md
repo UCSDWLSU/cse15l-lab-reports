@@ -1,5 +1,5 @@
 **ChatServer.java Code:**
-'import java.io.IOException;
+import java.io.IOException;
 import java.net.URI;
 
 class ChatHandler implements URLHandler {
@@ -38,10 +38,10 @@ public class ChatServer {
 
         Server.start(port, new ChatHandler());
     }
-}'
+}
 
 **Server.java Code:**
-'import java.io.IOException;
+import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.URI;
@@ -88,7 +88,7 @@ public class Server {
         server.start();
         System.out.println("Server Started! If on your local computer, visit http://localhost:" + port + " to visit.");
     }
-}'
+}
 
 <br>**Image:**![Image](lab2pic1.png)
 <br>**Which methods in your code are called?**
