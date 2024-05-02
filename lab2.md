@@ -1,8 +1,7 @@
-**ChatServer.java Code:**
-'import java.io.IOException;
-import java.net.URI;'
+import java.io.IOException;
+import java.net.URI;
 
-'class ChatHandler implements URLHandler {
+class ChatHandler implements URLHandler {
     String chatLog = "";
 
     public String handleRequest(URI url) {
@@ -25,7 +24,7 @@ import java.net.URI;'
         }
         return "404 Not Found!";
     }
-}'
+}
 
 public class ChatServer {
     public static void main(String[] args) throws IOException {
@@ -40,17 +39,16 @@ public class ChatServer {
     }
 }
 
-**Server.java Code:**
-'import java.io.IOException;
+import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.URI;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-import com.sun.net.httpserver.HttpServer;'
+import com.sun.net.httpserver.HttpServer;
 
-'interface URLHandler {
+interface URLHandler {
     String handleRequest(URI url);
 }
 
@@ -88,7 +86,7 @@ public class Server {
         server.start();
         System.out.println("Server Started! If on your local computer, visit http://localhost:" + port + " to visit.");
     }
-}'
+}
 
 <br>**Image:**![Image](lab2pic1.png)
 <br>**Which methods in your code are called?**
