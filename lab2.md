@@ -1,5 +1,3 @@
-**ChatServer.java Code:**
-
 import java.io.IOException;
 import java.net.URI;
 
@@ -40,8 +38,6 @@ public class ChatServer {
         Server.start(port, new ChatHandler());
     }
 }
-
-**Server.java Code:**
 
 import java.io.IOException;
 import java.io.OutputStream;
