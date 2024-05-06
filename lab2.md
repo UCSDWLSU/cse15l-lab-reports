@@ -1,8 +1,6 @@
-**ChatServer.java Code:**
-<br>**Image:**![Image](Lab2ChatServerCode.png)
+<br>**ChatServer.java Code/Image:**![Image](Lab2ChatServerCode.png)
 
-**Server.java Code:**
-<br>**Image:**![Image](Lab2ServerCode.png)
+<br>**Server.java Code/Image:**![Image](Lab2ServerCode.png)
 
 <br>**Image:**![Image](lab2pic1.png)
 <br>**Which methods in your code are called?**
