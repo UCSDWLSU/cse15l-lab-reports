@@ -7,12 +7,12 @@
 <br>**Image:**![Image](lab2pic1.png)
 <br>**Which methods in your code are called:** `handle` method in ServerHttpHandler class
 <br>**What are the relevant arguments to those methods, and the values of any relevant fields of the class:** Argument 1: `HttpExchange exchange` represents the HTTP request and response exchange / Argument 2: `URI url` the URL object representing the request URL / Field 1: `handler` field in ServerHttpHandler class, which is an instance of ChatHandler / Field 2: `chatlog` field in ChatHandler class, which stores the chat messages
-<br>**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why:** 
+<br>**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why:** The `chatlog` field in ChatHandler class changes as it concatenates the new chat message. In this case, it will append `"jpolitz: Hello\n"` to the existing `chatlog` string.
 
 <br>**Image:**![Image](lab2pic2.png)
 <br>**Which methods in your code are called:** "handle" method in ServerHttpHandler class
 <br>**What are the relevant arguments to those methods, and the values of any relevant fields of the class:** Argument 1: `HttpExchange exchange` represents the HTTP request and response exchange / Argument 2: `URI url` the URL object representing the request URL / Field 1: `handler` field in ServerHttpHandler class, which is an instance of ChatHandler / Field 2: `chatlog` field in ChatHandler class, which stores the chat messages
-<br>**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why:** 
+<br>**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why:** The `chatlog` field in ChatHandler class changes as it concatenates the new chat message. In this case, it will append `"yash: How are you\n"` to the existing `chatlog` string.
 
 <br>**Image:**![Image](privatekey.png)
 <br>**Image:**![Image](publickey.png)
