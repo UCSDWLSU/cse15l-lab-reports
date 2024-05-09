@@ -1,26 +1,20 @@
 <br>**1:**
 <br>
-`public class ReverseArrayTest {
-
-    @Test
+`@Test
     public void testReverseInPlaceFailure() {
         int[] originalArray = {1, 2, 3, 4, 5};
         ReverseArray.reverseInPlace(originalArray);
         Assert.assertArrayEquals("Array should be reversed", new int[]{5, 4, 3, 2, 1}, originalArray);
-    }
-}`
+    }`
 
 <br>**2:**
 <br>
-`public class ReverseArrayTest {
-
-    @Test
+`@Test
     public void testReverseInPlaceSuccess() {
         int[] originalArray = {1, 2};
         ReverseArray.reverseInPlace(originalArray);
         Assert.assertArrayEquals("Array should be reversed", new int[]{2, 1}, originalArray);
-    }
-}`
+    }`
 
 <br>**3:**
 <br>
