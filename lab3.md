@@ -1,14 +1,14 @@
 <br>**1:**
 <br>![Image](lab3pic1.png)
 
-
 <br>**2:**
 <br>![Image](lab3pic2.png)
 
-<br>**3:**
-<br>
-`for () {
-}`
+<br>**3(fail):**
+<br>![Image](lab3pic5.png)
+
+<br>**3(success):**
+<br>![Image](lab3pic6.png)
 
 <br>**4(before):**
 <br>![Image](lab3pic3.png)
