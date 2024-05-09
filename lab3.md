@@ -1,9 +1,9 @@
 <br>**1:**
-![Image](lab3pic1.png)
+<br>![Image](lab3pic1.png)
 
 
 <br>**2:**
-![Image](lab3pic2.png)
+<br>![Image](lab3pic2.png)
 
 <br>**3:**
 <br>
