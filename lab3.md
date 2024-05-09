@@ -1,5 +1,6 @@
 <br>**1:**
-<br>`import org.junit.Test;
+<br>
+`import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ReversedArrayTest {
@@ -13,7 +14,8 @@ public class ReversedArrayTest {
 }`
 
 <br>**2:**
-<br>`import org.junit.Test;
+<br>
+`import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ReversedArrayTest {
@@ -27,11 +29,13 @@ public class ReversedArrayTest {
 }`
 
 <br>**3:**
-<br>`for () {
+<br>
+`for () {
 }`
 
 <br>**4(before):**
-<br>`static int[] reversed(int[] arr) {
+<br>
+`static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
   for(int i = 0; i < arr.length; i += 1) {
     arr[i] = newArray[arr.length - i - 1];
@@ -40,7 +44,8 @@ public class ReversedArrayTest {
 }`
 
 <br>**4(after):**
-<br>`static int[] reversed(int[] arr) {
+<br>
+`static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
   for(int i = 0; i < arr.length; i += 1) {
     newArray[i] = arr[arr.length - i - 1];
