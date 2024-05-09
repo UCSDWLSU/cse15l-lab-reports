@@ -1,31 +1,25 @@
 <br>**1:**
 <br>
-`import org.junit.Test;
-import static org.junit.Assert.*;
+`public class ReverseArrayTest {
 
-public class ReversedArrayTest {
-
-  @Test
-  public void testReversedFailure() {
-    int[] input = {1, 2, 3};
-    int[] expected = {3, 2, 1};
-    assertArrayEquals(expected, ReversedArray.reversed(input));
-  }
+    @Test
+    public void testReverseInPlaceFailure() {
+        int[] originalArray = {1, 2, 3, 4, 5};
+        ReverseArray.reverseInPlace(originalArray);
+        Assert.assertArrayEquals("Array should be reversed", new int[]{5, 4, 3, 2, 1}, originalArray);
+    }
 }`
 
 <br>**2:**
 <br>
-`import org.junit.Test;
-import static org.junit.Assert.*;
+`public class ReverseArrayTest {
 
-public class ReversedArrayTest {
-
-  @Test
-  public void testReversedNoFailure() {
-    int[] input = {};
-    int[] expected = {};
-    assertArrayEquals(expected, ReversedArray.reversed(input));
-  }
+    @Test
+    public void testReverseInPlaceSuccess() {
+        int[] originalArray = {1, 2};
+        ReverseArray.reverseInPlace(originalArray);
+        Assert.assertArrayEquals("Array should be reversed", new int[]{2, 1}, originalArray);
+    }
 }`
 
 <br>**3:**
@@ -35,23 +29,21 @@ public class ReversedArrayTest {
 
 <br>**4(before):**
 <br>
-`static int[] reversed(int[] arr) {
-  int[] newArray = new int[arr.length];
+`static void reverseInPlace(int[] arr) {
   for(int i = 0; i < arr.length; i += 1) {
-    arr[i] = newArray[arr.length - i - 1];
+    arr[i] = arr[arr.length - i - 1];
   }
-  return arr;
 }`
 
 <br>**4(after):**
 <br>
-`static int[] reversed(int[] arr) {
-  int[] newArray = new int[arr.length];
-  for(int i = 0; i < arr.length; i += 1) {
-    newArray[i] = arr[arr.length - i - 1];
+`static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length / 2; i += 1) {
+    int temp = arr[i];
+    arr[i] = arr[arr.length - i - 1];
+    arr[arr.length - i - 1] = temp;
   }
-  return newArray;
 }`
 
 <br>**5:**
-<br>The original code incorrectly attempted to assign values to `arr[i]` using uninitialized values from `newArray`. The fix populates `newArray` with elements from `arr` in the reverse order. The loop correctly iterates over the array and assigns the reversed elements to `newArray`, which is then returned, ensuring that the original array `arr` is not modified and the reversed array is correctly constructed and returned.
+<br>The original code was overwriting the first half of the array with the second half before those values could be swapped, thus losing the original values. The fixed version of the code uses a temporary variable to hold the value being replaced, and it only iterates over the first half of the array (`arr.length / 2`). This ensures that each element is swapped only once, preserving the order of the elements in reverse.
