@@ -5,7 +5,7 @@
 
 **STEP 5**
 <br>**Command:** `git clone git@github.com:UCSDWLSU/lab7.git`
-<br>**Effect:** This command clones the repository located at git@github.com:UCSDWLSU/lab7.git into a local directory. Pressing <enter> executes the command.
+<br>**Effect:** This command clones the repository located at git@github.com:UCSDWLSU/lab7.git into a local directory.
 <br>![Image](lab4pic2.png)
 
 **STEP 6**
@@ -14,7 +14,7 @@
 <br>![Image](lab4pic3.png)
 
 **STEP 7**
-<br>**Command:** `vim ListExamples.java` / `` / `bash test.sh`
+<br>**Command:** `vim ListExamples.java` / `14 Down 22 Right <i> 3 Backspace 29 Down 6 Left Backspace 1 <2> <Esc> <:` / `bash test.sh`
 <br>**Effect:** 
 <br>![Image](lab4pic5.png)
 <br>![Image](lab4pic6.png)
