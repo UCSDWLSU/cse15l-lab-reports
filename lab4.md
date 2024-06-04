@@ -17,12 +17,12 @@
 <br>**Command:** 
 <br>**Effect:** 
 <br>![Image](lab4pic4.png)
+<br>![Image](lab4pic5.png)
+<br>![Image](lab4pic6.png)
 
 **Step 8:**
 <br>**Command:** `bash test.sh<enter>`
 <br>**Effect:** 
-<br>![Image](lab4pic5.png)
-<br>![Image](lab4pic6.png)
 <br>![Image](lab4pic7.png)
 
 **Step 9:**
