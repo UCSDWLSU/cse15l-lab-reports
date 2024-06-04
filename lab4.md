@@ -16,16 +16,15 @@
 **Step 7:**
 <br>**Command:** 
 <br>**Effect:** 
-<br>![Image](lab4pic4.png)
 <br>![Image](lab4pic5.png)
 <br>![Image](lab4pic6.png)
 
 **Step 8:**
 <br>**Command:** `bash test.sh<enter>`
 <br>**Effect:** 
-<br>![Image](lab4pic7.png)
+<br>![Image](lab4pic4.png)
 
 **Step 9:**
 <br>**Commands:** `git commit<enter>` / `git push<enter>`
 <br>**Effects:** This sequence reuses the bash test.sh command by accessing the command history with the up arrow and running it again to demonstrate that the tests now pass after the changes made in Step 4.
-<br>![Image](lab4pic8.png)
+<br>![Image](lab4pic7.png)
