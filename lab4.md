@@ -14,7 +14,7 @@
 <br>![Image](lab4pic3.png)
 
 **STEP 7**
-<br>**Command:** `vim ListExamples.java` / `14 Down 22 Right <i> 3 Backspace 29 Down 6 Left Backspace 1 <2> <Esc> <:` / `bash test.sh`
+<br>**Command:** `vim ListExamples.java` / `<Down x14> <Right x22> <i> <Backspace x3> <Down x29> <Left x6> <Backspace x1> <2> <Esc> <:wq>` / `bash test.sh`
 <br>**Effect:** 
 <br>![Image](lab4pic5.png)
 <br>![Image](lab4pic6.png)
