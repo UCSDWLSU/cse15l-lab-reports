@@ -8,7 +8,7 @@ I’m encountering an issue while trying to run the grading script for our list 
 From what I can tell, it seems like there might be an issue with the file paths or maybe the Java compilation. Has anyone experienced something similar or has an idea of what might be going wrong?
 
 **Screenshot:**
-<br>imgtxt
+<br>![Image](lab5pic1.png)
 
 **2. A response from a TA asking a leading question or suggesting a command to try.**
 <br>**Title:** Re: Issue with list-examples-grader Script Execution
@@ -33,23 +33,23 @@ It seems like the `ListExamples.java` file is located in a different directory t
 The bug is likely due to incorrect file paths in the `grade.sh` script. I’ll try updating the paths and see if that resolves the issue.
 
 **Screenshot:**
-<br>imgtxt
+<br>![Image](lab5pic2.png)
 
 **4a.** The file & directory structure needed
 
 **Screenshot:**
-<br>imgtxt
+<br>![Image](lab5pic3.png)
 
 **4b.** The contents of each file *before* fixing the bug
 
 **ListExamples.java**
-<br>imgtxt
+<br>![Image](lab5pic4.png)
 
 **TestListExamples.java**
-<br>imgtxt
+<br>![Image](lab5pic5.png)
 
 **grade.sh**
-<br>imgtxt
+<br>![Image](lab5pic6.png)
 
 **4c.** The full command line (or lines) you ran to trigger the bug
 
@@ -60,6 +60,6 @@ The bug is likely due to incorrect file paths in the `grade.sh` script. I’ll t
 Update the file paths in the `grade.sh` script to correctly point to the `examples` directory where `ListExamples.java` is located.
 
 **Corrected `grade.sh`**
-<br>imgtxt
+<br>![Image](lab5pic7.png)
 
 By changing the path from `src/ListExamples.java` to `examples/ListExamples.java`, the script will now correctly locate and compile the necessary Java files, allowing the tests to run successfully.
