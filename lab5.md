@@ -35,12 +35,12 @@ The bug is likely due to incorrect file paths in the `grade.sh` script. I’ll t
 **Screenshot:**
 <br>![Image](lab5pic2.png)
 
-**4a.** The file & directory structure needed
+**4a. The file & directory structure needed**
 
 **Screenshot:**
 <br>![Image](lab5pic3.png)
 
-**4b.** The contents of each file *before* fixing the bug
+**4b. The contents of each file *before* fixing the bug**
 
 **ListExamples.java**
 <br>![Image](lab5pic4.png)
@@ -51,11 +51,11 @@ The bug is likely due to incorrect file paths in the `grade.sh` script. I’ll t
 **grade.sh**
 <br>![Image](lab5pic6.png)
 
-**4c.** The full command line (or lines) you ran to trigger the bug
+**4c. The full command line (or lines) you ran to trigger the bug**
 
 `bash grade.sh`
 
-**4d.** A description of what to edit to fix the bug
+**4d. A description of what to edit to fix the bug**
 
 Update the file paths in the `grade.sh` script to correctly point to the `examples` directory where `ListExamples.java` is located.
 
