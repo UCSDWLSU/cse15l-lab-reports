@@ -35,6 +35,8 @@ The bug is likely due to incorrect file paths in the `grade.sh` script. I’ll t
 **Screenshot:**
 <br>![Image](lab5pic2.png)
 
+In step 3 of the lab report, the problem was solved by correcting the file paths in the grade.sh script. The original script had incorrect paths, leading to failures when trying to access necessary files for grading. By updating these paths to the correct locations, the script was able to find and process the files correctly. This fix worked because the script relied on accurate file locations to function properly, and ensuring the paths were correct allowed it to execute as intended.
+
 **4a. The file & directory structure needed**
 
 **Screenshot:**
