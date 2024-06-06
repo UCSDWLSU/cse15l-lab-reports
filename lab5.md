@@ -63,3 +63,6 @@ Update the file paths in the `grade.sh` script to correctly point to the `exampl
 <br>![Image](lab5pic7.png)
 
 By changing the path from `src/ListExamples.java` to `examples/ListExamples.java`, the script will now correctly locate and compile the necessary Java files, allowing the tests to run successfully.
+
+**Reflection:**
+In the second half of this class, I learned a handful of new things, such as Vim, JDB, and Bash/Bash Scripting. Specifically with Vim, I learned how to essentially code/edit completely from the terminal/command line, which I find extremely cool (maybe just because I'm trying to get into Cybersecurity). With JDB (Java Debugger), I learned how to properly run it on a main class [with the use of a password], granted I only know the basics and am still learning the syntax/common commands. And with Bash/Bash Scripting, I learned a good amount of common and helpful commands, and learned that there's a way to automate code, respectively. Oh, and I also learned (I don't think it was during the second half of this class) how to connect to a remote SSH (Secure Shell Protocol) server, and how to create SSH keys.
